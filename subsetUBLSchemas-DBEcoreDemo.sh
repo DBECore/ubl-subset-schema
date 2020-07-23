@@ -13,7 +13,7 @@ export UBLversion=2.2
 export title="DBEcoreDemo subset of UBL 2.2"
 export package=DBEcoreDemo-subset-UBL-2.2
 export subsetColumn=DBEcoreDemoSubset
-export subsetDocsRegex="(^UBL-(.*)-2.2$)"
+export subsetDocsRegex="(^UBL-(Order|OrderResponse|Invoice)-2.2$)"
 
 bash subsetUBLSchemas-common.sh "$1" "$2" "$3" "$4"
 
