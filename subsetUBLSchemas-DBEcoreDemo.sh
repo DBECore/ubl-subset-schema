@@ -5,8 +5,8 @@ if [ "$3" = "" ]; then echo Missing results directory, environment, and dateZ ar
 # Configuration parameters
 
 export version=0.1
-export libGoogle=https://docs.google.com/spreadsheets/d/1kc9tkc65o-Zrg-u9y7krQcU4u1X4ADLFTx7N6sy0KSs
-export docGoogle=https://docs.google.com/spreadsheets/d/16sn4pqGF97-ef-DxJFyVo_TGzUuTopFumgoB9uuLNDw
+export libGoogle=https://docs.google.com/spreadsheets/d/16fH7kJ8HIDWsNNcou_LVclUoVph7uK9Cf2TOSui1Z_o
+export docGoogle=https://docs.google.com/spreadsheets/d/1BJIOzbKSil7cc-iqDyW7CwKd26dweXRTdR7S8HqMa6Y
 export copyright="Subset copyright DBE Core Ltd. 2020; Portions copyright &#169; OASIS Open"
 export configDirectory=DBEcoreDemo
 export UBLversion=2.2
