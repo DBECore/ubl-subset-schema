@@ -12,8 +12,8 @@ export configDirectory=DBEcoreDemo
 export UBLversion=2.2
 export title="PEPPOL subset of UBL 2.2"
 export package=PEPPOL-subset-UBL-2.2
-export subsetColumn=PeppolDemo
-export subsetDocsRegex="(^UBL-(Order)-2.2$)"
+export subsetColumn=DBECore
+export subsetDocsRegex=".*"
 
 bash subsetUBLSchemas-common.sh "$1" "$2" "$3" "$4"
 
