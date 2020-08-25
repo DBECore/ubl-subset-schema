@@ -10,10 +10,10 @@ export docGoogle=https://docs.google.com/spreadsheets/d/16sn4pqGF97-ef-DxJFyVo_T
 export copyright="Subset copyright DBE Core Ltd. 2020; Portions copyright &#169; OASIS Open"
 export configDirectory=DBEcoreDemo
 export UBLversion=2.2
-export title="PEPPOL Subset of UBL 2.2"
-export package=PEPPOL-subset-UBL-2.2
-export subsetColumn=PEPPOLSubsetOrderResponse
-export subsetDocsRegex="(^UBL-(OrderResponse)-2.2$)"
+export title="DBE Subset of UBL 2.2"
+export package=DBE-subset-UBL-2.2
+export subsetColumn=DBECoreSubset
+export subsetDocsRegex="(^UBL-(Order|OrderResponse|Invoice)-2.2$)"
 
 bash subsetUBLSchemas-common.sh "$1" "$2" "$3" "$4"
 
