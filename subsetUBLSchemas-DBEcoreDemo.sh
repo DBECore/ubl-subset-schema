@@ -12,8 +12,8 @@ export configDirectory=DBEcoreDemo
 export UBLversion=2.2
 export title="DBE Core Subset of UBL 2.2"
 export package=DBE-subset-UBL-2.2
-export subsetColumn=PEPPOLSubset
-export subsetDocsRegex="(^UBL-(Order|OrderResponse|Invoice|Waybill)-2.2$)"
+export subsetColumn=Cardinality
+export subsetDocsRegex=".*"
 
 bash subsetUBLSchemas-common.sh "$1" "$2" "$3" "$4"
 
